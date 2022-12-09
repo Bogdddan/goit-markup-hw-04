@@ -37,6 +37,9 @@ section{
 .ittem101{
     border-color: #2E2F42;
 }
+.item101:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .list88{
     padding-bottom: 32px;
 }
@@ -190,10 +193,12 @@ a{
 }
 .link0:hover{
     background-color: #404BBF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .link0:focus{
     background-color: 
     #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero{
     background-color: #2E2F42;
@@ -201,6 +206,7 @@ a{
     text-align: cener;
     padding-top: 192px;
     padding-bottom: 192px;
+    background-image: url("people-office1.jpg");
 }
 h1{
     font-family: 'Roboto', sans-serif;
@@ -455,6 +461,7 @@ nav{
     width: 264px;
     gap: 24px;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .item99:last-child{
     margin-right: 0;
