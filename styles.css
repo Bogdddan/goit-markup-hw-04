@@ -561,6 +561,7 @@ img{
 }
 .footerIcons{
     align-items: baseline;
+    margin-left: 120px;
 }
 .logofooter{
     margin-bottom: 16px;
@@ -638,15 +639,19 @@ footer{
     gap: 24px;
 }
 .icons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
+    margin-top: 16px;
 }
 .iconinsta1{
     display: inline-block;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-image: url(svg/instagram.svg);
-    background-color: black;
+    background-image: url(svg/instagram1.svg);
+    background-color: #FFFFFF1A;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -655,28 +660,28 @@ footer{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #FFFFFF1A;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(svg/twitter.svg);
+    background-image: url(svg/twitter1.svg);
 }
 .iconfacebook1{
     display: inline-block;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #FFFFFF1A;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(svg/facebook.svg);
+    background-image: url(svg/facebook1.svg);
 }
 .iconinkedin1{
     display: inline-block;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #FFFFFF1A;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(svg/linkedin.svg);
+    background-image: url(svg/linkedin1.svg);
 }
