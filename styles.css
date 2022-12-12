@@ -555,6 +555,9 @@ img{
 .logoyaco:hover{
     fill: #4D5AE5;
 }
+.logoyaco:focus{
+    fill: #4D5AE5;
+}
 .uliconsbottom{
     display: flex;
     justify-content: center;
@@ -649,6 +652,7 @@ footer{
     background-color: #31D0AA;
 }
 .logoyaco{
+    color: #AFB1B8;
     width: 104px;
     height: 56px;
 }
@@ -665,4 +669,8 @@ footer{
 }
 .qwer{
     height: 24px;
+}
+.iconmain{
+    width: 64px;
+    height: 64px;
 }
