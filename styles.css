@@ -670,8 +670,6 @@ footer{
     width: 168px;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
-    border: 1px solid #8E8F99;
 }
 .logoyaco{
     fill: currentColor;
@@ -684,6 +682,8 @@ footer{
     height: 100%;
     display: block;
     color: #AFB1B8;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 .iconsbotlogoyaco:hover{
     border:1px solid #4D5AE5;
