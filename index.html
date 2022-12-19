@@ -34,7 +34,21 @@
     <section class="hero">
         <div class="container">
             <h1>Effective Solutions for Your Business</h1>
-            <button class="link0" type="button">Order Service</button>
+            <button class="link0" type="button" data-modal-open>Order Service</button>
+
+
+    <div class="backdrop is-hidden">
+        <div class="data-modal" data-modal>
+            <span class="data-modal-close" data-modal-close>
+                <a class="close" href="">
+                    <svg class="hr">
+                        <use href="symbol-defs.svg#icon-hrestuk"></use>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </div>
+        </div>
     </section>
     <section class="page1text" >
         <div class="container">
@@ -338,6 +352,6 @@
             </div>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
